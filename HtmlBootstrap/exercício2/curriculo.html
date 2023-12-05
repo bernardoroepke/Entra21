@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome">
+
+            <label for="cpf">CPF:</label>
+            <input type="text" maxlength="11" id="cpf" placeholder="Digite seu CPF">
+
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data">
+
+            <p>Selecione o gênero que você se identifica</p>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="Feminino">
+            <label for="masculino">Feminino</label>
+            <input type="radio" id="nbinario" name="genero" value="Nbinário">
+            <label for="masculino">Não-binário</label>
+            <input type="radio" id="outros" name="genero" value="Outros">
+            <label for="masculino">Outros</label>
+            <input type="radio" id="nresponder" name="genero" value="Nresponder">
+            <label for="masculino">Prefiro não responder</label>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email">
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" maxlength="11" id="telefone" placeholder="Digite seu telefone">
+
+            <label for="cep">CEP (Código de Endereçamento Postal):</label>
+            <input type="text" maxlength="8" id="cep" placeholder="Digite seu CEP">
+
+            <label for="endereço">Endereço:</label>
+            <input type="text" id="endereço" placeholder="Nome da rua, número">
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" placeholder="Digite seu Estado">
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="Digite sua Cidade">
+
+            <label for="objetivo">Objetivo:</label>
+            <textarea rows="4" id="objetivo" placeholder="Escreva aqui o seu objetivo na empresa"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experiência acadêmica</legend>
+
+            <p>Formação:</p>
+
+            <input type="radio" id="fundamental" name="academico" value="Fundamental">
+            <label for="fundamental">Fundamental</label>
+            <input type="radio" id="medio" name="academico" value="Médio">
+            <label for="medio">Médio</label>
+            <input type="radio" id="tecnico" name="academico" value="Técnico">
+            <label for="tecnico">Técnico</label>
+            <input type="radio" id="superior" name="academico" value="Superior">
+            <label for="superior">Superior</label>
+
+            <p>Status:</p>
+
+            <input type="radio" id="fundamentalstatus" name="status" value="Em andamento">
+            <label for="fundamentalstatus">Em andamento</label>
+            <input type="radio" id="mediostatus" name="status" value="Completo">
+            <label for="mediostatus">Completo</label>
+
+            <label for="intituicao">Instituição:</label>
+            <input type="text" id="instituicao" placeholder="Digite o nome da instituição">
+
+            <label for="habilidades">Objetivo:</label>
+            <textarea rows="4" id="habilidades" placeholder="Escreva aqui sobre suas habilidades e competências"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cursos</legend>
+            
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" placeholder="Digite o nome do curso">
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" placeholder="Descreva sobre o que se trata">
+        </fieldset>
+
+        <fieldset>
+            <legend>Experiências Profissionais</legend>
+            
+            <p>Experiência profissional 1:</p>
+            
+            <label for="empresa1">Empresa:</label>
+            <input type="text" id="empresa1" placeholder="Digite o nome da empresa">
+
+            <label for="cargo1">Cargo:</label>
+            <input type="text" id="cargo1" placeholder="Digite o cargo em que trabalhava">
+
+            <label for="descricao1">Descrição:</label>
+            <textarea rows="4" id="descricao1" placeholder="Escreva aqui sobre o que você fazia na empresa"></textarea>
+
+            <label for="dataini1">Início:</label>
+            <input type="date" id="dataini1">
+
+            <label for="datafim1">Saída:</label>
+            <input type="date" id="datafim1">
+
+            <p>Experiência profissional 2:</p>
+            
+            <label for="empresa2">Empresa:</label>
+            <input type="text" id="empresa2" placeholder="Digite o nome da empresa">
+
+            <label for="cargo2">Cargo:</label>
+            <input type="text" id="cargo2" placeholder="Digite o cargo em que trabalhava">
+
+            <label for="descricao2">Descrição:</label>
+            <textarea rows="4" id="descricao2" placeholder="Escreva aqui sobre o que você fazia na empresa"></textarea>
+
+            <label for="dataini2">Início:</label>
+            <input type="date" id="dataini2">
+
+            <label for="datafim2">Saída:</label>
+            <input type="date" id="datafim2">
+
+            <p>Experiência profissional 3:</p>
+            
+            <label for="empresa3">Empresa:</label>
+            <input type="text" id="empresa3" placeholder="Digite o nome da empresa">
+
+            <label for="cargo3">Cargo:</label>
+            <input type="text" id="cargo3" placeholder="Digite o cargo em que trabalhava">
+
+            <label for="descricao3">Descrição:</label>
+            <textarea rows="4" id="descricao3" placeholder="Escreva aqui sobre o que você fazia na empresa"></textarea>
+
+            <label for="dataini3">Início:</label>
+            <input type="date" id="dataini3">
+
+            <label for="datafim3">Saída:</label>
+            <input type="date" id="datafim3">
+        </fieldset>
+
+        <fieldset>
+            <legend>Idiomas</legend>
+
+            <label for="idioma">Idioma:</label>
+            <input type="text" id="idioma" placeholder="Digite o idioma">
+
+            <input type="radio" id="básico" name="idioma" value="Básico">
+            <label for="básico">Básico</label>
+            <input type="radio" id="intermediário" name="idioma" value="Intermediário">
+            <label for="intermediário">Intermediário</label>
+            <input type="radio" id="avançado" name="idioma" value="Avançado">
+            <label for="avançado">Avançado</label>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD da API Animals</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" onclick="trocarForma(1)">Listar</button>
+                <div id="form1" style="display: none;">
+                    <table class="table" id="tableform1">
+                        <thead>
+                            <tr>                                    
+                                <th>Id</th>
+                                <th>Nome</th>
+                                <th>Espécie</th>
+                                <th>Cor</th>                                               
+                                <th>Tamanho</th>                                               
+                            </tr>                                                                 
+                        </thead>
+                        <tbody id="tbody">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-primary" onclick="trocarForma(2)">Adicionar</button>
+                <div id="form2" style="display: none;">
+                    <form id="formadicionar">
+                        <div class="form-group">
+                            <label for="campo2e1">Nome:</label>
+                            <input type="text" class="form-control" id="campo2e1" name="campo2e1">
+                            <label for="campo2e2">Espécie</label>
+                            <input type="text" class="form-control" id="campo2e2" name="campo2e2">
+                            <label for="campo2e3">Cor</label>
+                            <input type="text" class="form-control" id="campo2e3" name="campo2e3">
+                            <label for="campo2e4">Tamanho</label>
+                            <input type="text" class="form-control" id="campo2e4" name="campo2e4">
+                        </div>
+                        <input type="submit" class="btn btn-success" value="Adicionar">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-primary" onclick="trocarForma(3)">Editar</button>
+                <div id="form3" style="display: none;">
+                    <form id="formeditar">
+                        <div class="form-group">
+                            <label for="campo3e1">Id:</label>
+                            <input type="text" class="form-control" id="campo3e1" name="campo3e1">
+                            <label for="campo3e2">Nome:</label>
+                            <input type="text" class="form-control" id="campo3e2" name="campo3e2">
+                            <label for="campo3e3">Espécie</label>
+                            <input type="text" class="form-control" id="campo3e3" name="campo3e3">
+                            <label for="campo3e4">Cor</label>
+                            <input type="text" class="form-control" id="campo3e4" name="campo3e4">
+                            <label for="campo3e5">Tamanho</label>
+                            <input type="text" class="form-control" id="campo3e5" name="campo3e5">
+                        </div>
+                        <input type="submit" class="btn btn-success" value="Editar">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-primary" onclick="trocarForma(4)">Deletar</button>
+                <div id="form4" style="display: none;">
+                    <form id="formdelete">
+                        <div class="form-group">
+                            <label for="campo4">Id:</label>
+                            <input type="text" class="form-control" id="campo4" name="campo4">
+                            <input type="submit" class="btn btn-danger" value="Deletar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #cfcdcd;
+}
+
+.cabeça{
+    background-color: rgb(240, 216, 218);
+    padding: 0 10%;
+}
+
+.cabeçaLink{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.cabeçaLink:hover{
+    background-color: #bd4f4f;
+    transition: 0.5s;
+}
+
+.banner{
+    height: 85px;
+}
+
+.banner2{
+    height: 150px;
+    padding: 10px;
+}
+
+.banner3{
+    height: 80px;
+    padding: 10px;
+}
+
+.banner4{
+    height: 20px;
+    padding: 10px;
+}
+
+.titulo{
+    height: 40px;
+    border: 3px solid white;
+    color: white;
+    font-size: 0.9em;
+}
+
+.titulo-grande{
+    border: 3px solid white;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.emprego{
+    background-color: rgb(11, 94, 158);
+}
+
+.curriculo{
+    background-color: #c44f10;
+}
+
+.classificado{
+    background-color: #065548;
+}
+
+.destaque{
+    background-color: #ad7725;
+}
+
+.gratis{
+    background-color: #3aad3d;
+}
+
+.tituloCard1{
+    background-color: #2478bd;
+    width: 8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.tituloCard2{
+    background-color: #b82c5a;
+    width: 8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.tituloCard3{
+    background-color: #208124;
+    width: 8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.tituloCard4{
+    background-color: #a86a0c;
+    width: 8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #a52624;
+    width: 100vw;
+    color: white;
+}
+
+.linkItem{
+    color: white;
+    text-decoration: none;
+}
+
+.footer1{
+    height: 8vh;
+    background-color: #b4312f;
+}
+
+.bdcrumb{
+    background-color: #F44336;
+    padding: 12px 0 12px 18%;
+    padding-left: 18%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: 5vh;
+    font-size: 1.2em;
+}
+
+.artigo{
+    padding: 25px;
+}
+
+.tituloArtigo{
+    color: red;
+}
+
+.linkArtigo{
+    color: red;
+    text-decoration: none;
+}
+
+.faixaRed{
+    min-width: 100vh;
+    background-color: #EF5350;
+    color: white;
+    padding: .8rem;
+}
+
+.faixaVaga{
+    background-color: #FFEBEE;
+    padding: .8rem;
+    border: solid 2px white;
+}
+
+.linkEmprego{
+    text-decoration: none;
+    color: #549BE5;
+}
